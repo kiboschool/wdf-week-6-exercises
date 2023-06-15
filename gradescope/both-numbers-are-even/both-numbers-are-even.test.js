@@ -2,7 +2,7 @@ const w = require('jest-autograding-reporter').weight
 const bothNumbersAreEven  = require('./both-numbers-are-even')
 
 describe('bothNumbersAreEven', () => {
-    it(w(2, 'should check that both numbers are even'), () => {
+    it(w(3, 'should check that both numbers are even'), () => {
         expect(bothNumbersAreEven(4, 6)).toBe(true);
         expect(bothNumbersAreEven(0, 2)).toBe(true);
 
