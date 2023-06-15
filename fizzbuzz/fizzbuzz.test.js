@@ -2,7 +2,7 @@ const w = require('jest-autograding-reporter').weight
 const fizzBuzz  = require('./fizzbuzz')
 
 describe('fizzBuzz', () => {
-    it(w(2, 'should implement the FizzBuzz algorithm'), () => {
+    it(w(3, 'should implement the FizzBuzz algorithm'), () => {
         expect(fizzBuzz(3)).toBe('Fizz');
         expect(fizzBuzz(9)).toBe('Fizz');
 
