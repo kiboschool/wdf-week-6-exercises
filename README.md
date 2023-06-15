@@ -30,18 +30,16 @@ This week, the mandatory exercises are:
 If your solution has all the required elements it should say something like:
 
 ```txt
- PASS  ./html-elements.test.js
-  The recipe page has the required HTML elements
-    ✓ uses at least one heading element (50 ms)
-    ✓ uses at least three heading elements (18 ms)
-    ✓ uses at least two heading elements (10 ms)
-    ✓ uses at least one image element (5 ms)
-    ✓ index.html is a valid html doc (193 ms)
+ PASS  can-i-order-item/can-i-order-item.test.js
+ PASS  fizzbuzz/fizzbuzz.test.js
+ PASS  can-i-drive-and-vote/can-i-drive-and-vote.test.js
+ PASS  count-characters-in-string/count-characters-in-string.test.js
+ PASS  both-numbers-are-even/both-numbers-are-even.test.js
 
-Test Suites: 1 passed, 1 total
-Tests:       5 passed, 5 total
+Test Suites: 5 passed, 5 total
+Tests:       14 passed, 14 total
 Snapshots:   0 total
-Time:        2.104 s
+Time:        1.865 s, estimated 2 s
 Ran all test suites.
 ```
 

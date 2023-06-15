@@ -11,6 +11,15 @@
  * Output: true
  */
 function canIOrderItem(dishName, stockArray) {
-}
+    let hasDish = false
+    for (let dish of stockArray) {
+      if (dish[dishName] > 0) {
+        hasDish = true
+      }
+    }
+    return hasDish
+  }
+  
+  module.exports = canIOrderItem;
 
-module.exports = canIOrderItem;
+  

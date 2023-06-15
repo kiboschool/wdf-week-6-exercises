@@ -9,7 +9,13 @@
  * bothNumbersArePair(4, 6);
  * Output: true
  */
-function bothNumbersArePair(a, b) {
+function bothNumbersAreEven(a, b) {
+    if ((a%2==0) && (b%2==0)){
+        return true;
+    }
+    else{
+        return false;
+    }
 }
 
-module.exports = bothNumbersArePair;
+module.exports = bothNumbersAreEven;

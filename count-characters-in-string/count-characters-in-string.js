@@ -9,6 +9,13 @@
  * // Output: 13
  */
 function countCharactersInString(str) {
+    let lengthString = 0;
+    for (var i of str){
+       
+        lengthString++;
+    }
+    // console.log(str.length)
+    return lengthString;
     
 }
 
