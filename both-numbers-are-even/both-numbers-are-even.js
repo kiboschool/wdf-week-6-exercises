@@ -6,7 +6,7 @@
  * @returns {boolean} - True if both numbers are even, false otherwise
  *
  * Usage:
- * bothNumbersArePair(4, 6);
+ * bothNumbersAreEven(4, 6);
  * Output: true
  */
 function bothNumbersAreEven(a, b) {
